@@ -27,8 +27,12 @@ body {
 	background-color: lightgrey;
 }
 
-#menu1 {
+#menu-current {
 	background-color: lightgrey;
+}
+
+#menu1 {
+	background-color: #3e6472;
 }
 
 #menu2 {
@@ -63,5 +67,18 @@ body {
 	background-color: #ddd;
 	border-radius: 3px;
 	margin-top: 3%;
+}
+
+.content-header {
+	display: block;
+	background-color: #222;
+	color: #ddd;
 	padding: 2%;
+	font-weight: bold;
+	border-radius: 3px 3px 0 0;
+}
+
+.content-body {
+	padding: 2%;
+	border-radius: 0 0 3px 3px;
 }
